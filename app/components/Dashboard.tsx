@@ -4,6 +4,7 @@ import { Search, MapPin, ChevronRight, User, Phone, CheckCircle, Store, Smartpho
 import Link from 'next/link';
 
 export default function Dashboard() {
+    
     const categories = [
         { name: "Basmati Rice", img: "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80", count: "Suppliers from Pune" },
         { name: "Indian Spices", img: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&q=80", count: "Whole & Powdered" },
